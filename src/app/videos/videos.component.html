@@ -1,0 +1,13 @@
+<h2>Hello Dũng ! </h2>
+
+
+<button routerLink="add-video">Add Video</button> <br><br>
+
+<table cellpadding="5" cellspacing="5">
+    <tr>
+        <td>VideoId</td> &nbsp;&nbsp;
+    </tr>
+    <tr *ngFor="let data of data2">
+        <td><a [routerLink]="['/detail', data.VideoId]">{{data.VideoId}}</a></td>&nbsp;&nbsp;
+    </tr>
+</table>

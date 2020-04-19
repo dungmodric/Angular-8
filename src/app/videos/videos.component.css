@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.button,
+button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+}

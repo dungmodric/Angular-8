@@ -1,0 +1,31 @@
+<h3>Chào Dũng. Chúc ngày mới vui vẻ !</h3>
+<form [formGroup]="VideoForm" action="">
+    <div>
+        <label for="">Title: </label><br>
+        <input type="text" formControlName="Title">
+    </div>
+    <div>
+        <label for="">Description: </label><br>
+        <input type="text" formControlName="Description">
+    </div>
+
+    <div>
+        <label for="">ThumbnailPath: </label><br>
+        <input type="text" formControlName="ThumbnailPath">
+    </div>
+
+    <div>
+        <label for="">ThumbnailDescription: </label><br>
+        <input type="text" formControlName="ThumbnailDescription">
+    </div>
+
+    <div>
+        <label for="">DisplayStatus: </label><br>
+        <input type="text" formControlName="DisplayStatus">
+    </div>
+
+    <div>
+        <button (click)="addvideo()">Add</button> &nbsp;
+        <button (click)="updateVideo()">Update</button>
+    </div>
+</form>

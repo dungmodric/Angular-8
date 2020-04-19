@@ -1,0 +1,21 @@
+<h2>Chào Dũng. Chúc ngày mới vui vẻ !</h2>
+<h3>Thông tin chi tiết video</h3>
+
+<table>
+    <tr>
+        <td>VideoId</td> &nbsp;&nbsp;
+        <td>Title</td>&nbsp;&nbsp;
+        <td>CreatedOnDate</td>&nbsp;&nbsp;
+        <td>MobileViewCount</td>&nbsp;&nbsp;
+        <td>DesktopViewCount</td>&nbsp;&nbsp;
+    </tr>
+    <tr>
+        <td>{{videoData.VideoId}}</td>&nbsp;&nbsp;
+        <td>{{videoData.Title}}</td>&nbsp;&nbsp;
+        <td>{{videoData.CreatedOnDate}}</td>&nbsp;&nbsp;
+        <td>{{videoData.MobileViewCount}}</td>&nbsp;&nbsp;
+        <td>{{videoData.DesktopViewCount}}</td>&nbsp;&nbsp;
+    </tr>
+</table><br>
+<button (click)="removeVideo()">Delete</button> &nbsp;
+<button [routerLink]="['/edit-video', videoData.VideoId]">Edit</button>
