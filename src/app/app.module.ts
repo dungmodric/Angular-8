@@ -10,13 +10,15 @@ import { Router, RouterModule } from '@angular/router';
 import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { VideosDetailComponent } from './videos-detail/videos-detail.component';
 import { VideosFormComponent } from './videos-form/videos-form.component';
+import { DungmodricComponent } from './dungmodric/dungmodric.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VideosComponent,
     VideosDetailComponent,
-    VideosFormComponent
+    VideosFormComponent,
+    DungmodricComponent
   ],
   imports: [
     BrowserModule,
